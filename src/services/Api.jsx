@@ -19,6 +19,5 @@ export default async function fetchImages(query = 'cat', page = 1) {
       page,
     },
   });
-  console.log(response.data);
   return response.data;
 }
